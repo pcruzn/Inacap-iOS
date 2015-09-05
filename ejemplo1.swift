@@ -14,7 +14,12 @@ class Client {
 
 class Seller {
     var name: String
-    var clients = [Client(name: "Cliente1"), Client(name: "Cliente2"), Client(name: "Cliente3")]
+    var clients = 
+    [
+        Client(name: "Cliente1"), 
+        Client(name: "Cliente2"), 
+        Client(name: "Cliente3")
+    ]
     
     init (name: String) {
         self.name = name
