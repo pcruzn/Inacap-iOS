@@ -24,8 +24,10 @@ class Engine {
     // Engine being the 'owner' of a set of sparkplugs
     private var sparkPlug: [SparkPlug] = 
     [
-        SparkPlug(brand: "Denso"), SparkPlug(brand: "Denso"),
-        SparkPlug(brand: "Denso"), SparkPlug(brand: "Denso")
+        SparkPlug(brand: "Denso"),
+        SparkPlug(brand: "Denso"),
+        SparkPlug(brand: "Denso"), 
+        SparkPlug(brand: "Denso")
     ]
     
     init (displacement: Int, model: String) {
