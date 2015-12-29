@@ -19,7 +19,6 @@ class Person {
     func getAddress()-> String {
         return address
     }
-    
 }
 
 class Student:Person {
@@ -35,7 +34,6 @@ class Student:Person {
     func getStudentId()-> Int {
         return studentId
     }
-    
 }
 
 class Teacher:Person {
