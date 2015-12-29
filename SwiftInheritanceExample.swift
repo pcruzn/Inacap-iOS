@@ -1,3 +1,4 @@
+// Author: Pablo Cruz Navea
 // Person is the top in this inheritance hierarchy example
 // both, Students and Teachers are specializations of the generalization Person
 // note how Person has getName and getAddres methods only (generalization)
